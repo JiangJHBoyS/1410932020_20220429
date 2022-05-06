@@ -18,20 +18,20 @@ end
 
 initial
 begin
-    #80 clk_tb = 1'b0;
-    #10 clk_tb = 1'b1;
+    #80 reset_tb = 1'b0;
+    #10 reset_tb = 1'b1;
 end
 
 initial
 begin
-    #80 clk_tb = 1'b1;
-    #10 clk_tb = 1'b0;
+    #80 load_tb = 1'b1;
+    #10 load_tb = 1'b0;
 end
 
 initial
 begin
-    #120 clk_tb = 1'b1;
-    #10 clk_tb = 1'b0;
+    #120 load_tb = 1'b1;
+    #10 load_tb = 1'b0;
 end
 
 initial
